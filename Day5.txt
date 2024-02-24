@@ -1,0 +1,43 @@
+1) Time complexity:-
+
+Time complexity in programming refers to the efficiency of an algorithm in terms of the amount of time it takes to execute as a function of the size of the input. It is crucial in determining the scalability and performance of algorithms, especially when dealing with large datasets.
+
+Formally, time complexity is often expressed using Big O notation, which provides an upper bound on the growth rate of the algorithm's running time. For example, an algorithm with a time complexity of O(n) means that the running time increases linearly with the size of the input (n), while O(n^2) signifies a quadratic growth rate.
+
+
+2)time complexities of some common list methods in Python:-
+
+
+- Accessing an element by index: O(1)
+- Appending to the end of the list: O(1) (amortized)
+- Inserting or deleting an element at the beginning or middle of the list: O(n)
+- Inserting or deleting an element at the end of the list: O(1)
+- Searching for an element: O(n)
+- Sorting the list: O(n log n)
+- Reversing the list: O(n)
+
+
+3)set data type in python:-
+
+The set data type in Python is a collection of unique elements, where each element occurs only once within the set. Sets are unordered and mutable, allowing for efficient membership testing and operations such as union, intersection, and difference. They are defined using curly braces {} or the set() constructor, making them useful for tasks requiring distinct elements or mathematical operations on collections.
+In a set, various data types can be stored, including integers, floats, strings, tuples (if they contain immutable elements), and other sets (since sets are mutable). However, mutable data types like lists and dictionaries cannot be stored directly within a set because they are not hashable.
+
+4)Some important set methods in Python and their uses:-
+
+a) `add()`: Adds a single element to the set.
+   - Example: `my_set.add(5)` adds the element 5 to the set `my_set`.
+
+b) `remove()`: Removes a specified element from the set. Raises a KeyError if the element is not present.
+   - Example: `my_set.remove(5)` removes the element 5 from the set `my_set`.
+
+c) `union()`: Returns a new set containing all unique elements from both sets.
+   - Example: `new_set = set1.union(set2)` creates a new set `new_set` with elements from both `set1` and `set2`.
+
+d) `intersection()`: Returns a new set containing elements common to both sets.
+   - Example: `common_elements = set1.intersection(set2)` returns a new set `common_elements` with elements present in both `set1` and `set2`.
+
+e) `difference()`: Returns a new set containing elements in the first set but not in the second set.
+   - Example: `diff_elements = set1.difference(set2)` returns a new set `diff_elements` with elements from `set1` that are not in `set2`.
+
+
+
